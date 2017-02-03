@@ -1,2 +1,7 @@
 applications:
-- name: tinyswift
+- name: Server
+  random-route: true
+  command: ./Server
+  memory: 256
+  instances: 1
+  buildpack: https://github.com/IBM-Swift/swift-buildpack#develop
