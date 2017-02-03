@@ -1,7 +1,7 @@
 applications:
 - name: Server
   random-route: true
-  command: ./Server
-  memory: 256
+  command: Server
+  memory: 256M
   instances: 1
   buildpack: https://github.com/IBM-Swift/swift-buildpack#develop
